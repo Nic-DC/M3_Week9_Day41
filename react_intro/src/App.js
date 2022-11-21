@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import image from "./assets/image.jpg";
 import "./App.css";
 import ImageComponent from "./Components/ImageComponent";
 import ButtonComponent from "./Components/ButtonComponent";
@@ -12,11 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <div className="homework">
-          <ImageComponent
-            source="/react_intro/public/dmitry-ratushny-O33IVNPb0RI-unsplash.jpg"
-            altext="man with book on his head"
-            stylingClass="Image-Component"
-          />
+          <ImageComponent source={image} altext="man with book on his head" stylingClass="Image-Component" />
           <ButtonComponent btnText="Clic" stylingBtn="Button-Component" />
         </div>
 
