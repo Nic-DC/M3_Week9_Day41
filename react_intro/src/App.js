@@ -11,12 +11,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <ImageComponent
-          source="/react_intro/public/dmitry-ratushny-O33IVNPb0RI-unsplash.jpg"
-          altext="man with book on his head"
-          stylingClass="Image-Component"
-        />
-        <ButtonComponent btnText="Clic" stylingBtn="Button-Component" />
+        <div className="homework">
+          <ImageComponent
+            source="/react_intro/public/dmitry-ratushny-O33IVNPb0RI-unsplash.jpg"
+            altext="man with book on his head"
+            stylingClass="Image-Component"
+          />
+          <ButtonComponent btnText="Clic" stylingBtn="Button-Component" />
+        </div>
+
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
